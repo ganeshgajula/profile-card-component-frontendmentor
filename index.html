@@ -15,25 +15,28 @@
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <div id="outer-container">
-      <div id="inner-container">
-        <div>
-          <img class="profile-pic" src="/images/image-victor.jpg" alt="" />
-          <p class="name-info"><strong>Victor Crest</strong> 26</p>
-          <p class="location">London</p>
-          <div class="social-info">
-            <div id="followers-info">
-              <h4>80K</h4>
-              <p>Followers</p>
-            </div>
-            <div id="likes-info">
-              <h4>803K</h4>
-              <p>Likes</p>
-            </div>
-            <div id="photos-info">
-              <h4>1.4K</h4>
-              <p>Photos</p>
-            </div>
+    <div id="outer-card">
+      <div id="inner-card">
+        <div class="upper-content">
+          <img class="upper-img" src="/images/bg-pattern-card.svg" alt="" />
+        </div>
+        <img class="profile-pic" src="/images/image-victor.jpg" alt="" />
+        <p class="name-info">
+          <strong>Victor Crest</strong> <span class="age">26</span>
+        </p>
+        <p class="location">London</p>
+        <div class="social-stats">
+          <div id="followers-info">
+            <h4>80K</h4>
+            <small>Followers</small>
+          </div>
+          <div id="likes-info">
+            <h4>803K</h4>
+            <small>Likes</small>
+          </div>
+          <div id="photos-info">
+            <h4>1.4K</h4>
+            <small>Photos</small>
           </div>
         </div>
       </div>
@@ -42,7 +45,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="ganeshgajula.netlify.app">Ganesh Gajula</a>.
+      >. Coded by <a href="https://ganeshgajula.netlify.app">Ganesh Gajula</a>.
     </div>
   </body>
 </html>
