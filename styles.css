@@ -104,3 +104,16 @@ body {
 .location {
   color: #9ca3af;
 }
+
+@media (max-width: 359px) {
+  #inner-card,
+  .upper-img {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 2600px) {
+  #inner-card {
+    height: 25%;
+  }
+}
