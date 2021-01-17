@@ -33,7 +33,7 @@ body {
 }
 
 .upper-content {
-  height: 25%;
+  height: 15vh;
   padding: 0;
 }
 
@@ -51,7 +51,7 @@ body {
   max-width: 320px;
   margin: auto;
   background-color: #fff;
-  height: 50%;
+  height: 50vh;
   /* padding: 1rem 1.5rem; */
   border-radius: 1rem;
 }
@@ -114,6 +114,9 @@ body {
 
 @media (min-width: 1500px) and (max-width: 2600px) {
   #inner-card {
-    height: 25%;
+    height: 25vh;
+  }
+  .upper-content {
+    height: 5vh;
   }
 }
