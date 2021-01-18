@@ -29,7 +29,7 @@ body {
 
 .profile-pic {
   border-radius: 50%;
-  border: 5px solid #fff;
+  border: 0.5rem solid #fff;
 }
 
 .upper-content {
@@ -105,15 +105,54 @@ body {
   color: #9ca3af;
 }
 
-@media (max-width: 359px) {
+@media (max-width: 358px) {
   #inner-card,
   .upper-img {
-    max-width: 300px;
+    max-width: 250px;
+    margin: auto;
+  }
+
+  #inner-card {
+    height: 45%;
+  }
+
+  .social-stats {
+    max-width: 260px;
+  }
+
+  #followers-info {
+    margin-left: 1rem;
+  }
+
+  #photos-info {
+    margin-right: 1rem;
   }
 }
 
-@media (min-width: 1500px) and (max-width: 2600px) {
+@media (min-width: 359px) and (max-width: 549px) {
+  #inner-card,
+  .upper-img {
+    max-width: 320px;
+  }
   #inner-card {
-    height: 25%;
+    height: 40%;
+  }
+  .social-stats {
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+  #inner-card {
+    height: 30%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 2600px) {
+  #inner-card {
+    height: 40%;
+  }
+  .social-stats {
+    padding-bottom: 2rem;
   }
 }
